@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="display:flex; padding:80px; justify-content:center;">
+    <div onclick="box1()"style="width:300px; height:300px; border:2px solid #a0a0a0; background: #d4e0ed; display:flex; align-items:center; justify-content:center; position:relative;">
+        <div onclick="box2(event)"style="width:200px; height:200px; border:2px solid #686868; background: #3e8383; display:flex; align-items:center; justify-content:center; position:relative;">    
+            <div id="innerbox" onclick="box3(event)"style="width:100px; height:100px; border:2px solid #686868; background: #d4e0ed;">
+            </div>
+        </div>
+    </div>
+    <script src="box.js"></script>
+</body>
+</html>
